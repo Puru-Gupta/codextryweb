@@ -1,10 +1,10 @@
 {
-  "name": "vizpilot-pro",
-  "version": "1.0.0",
+  "name": "insightai-monorepo",
   "private": true,
-  "description": "High-end dataset visualization recommendation web app with mock authentication and admin dashboard.",
+  "version": "1.0.0",
   "scripts": {
-    "start": "python3 -m http.server 3000",
-    "check": "node --check app.js"
+    "frontend:dev": "npm --prefix frontend run dev",
+    "frontend:build": "npm --prefix frontend run build",
+    "frontend:start": "npm --prefix frontend run start"
   }
 }
